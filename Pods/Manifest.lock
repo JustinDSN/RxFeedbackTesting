@@ -1,0 +1,36 @@
+PODS:
+  - KIF (3.7.8):
+    - KIF/Core (= 3.7.8)
+  - KIF/Core (3.7.8)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxFeedback (3.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+
+DEPENDENCIES:
+  - KIF
+  - RxFeedback
+
+SPEC REPOS:
+  trunk:
+    - KIF
+    - RxCocoa
+    - RxFeedback
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  KIF: 52e1af1a78cf6fe4ec6777b14776f3dd2eccc32e
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxFeedback: 4260d8dad5bba28b182c0b9ff5bce68c260de183
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+
+PODFILE CHECKSUM: 399c4303d8f1d857ec14ebd4cbc01b5402dfb8d4
+
+COCOAPODS: 1.8.4
